@@ -71,7 +71,7 @@
         width: 100px;
     }
     .popular-item{
-        gap: 5px;
+        gap: 10px;
     }
 }
 
@@ -82,7 +82,7 @@
     }
     .popular-item{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 20px;
     }
 }
