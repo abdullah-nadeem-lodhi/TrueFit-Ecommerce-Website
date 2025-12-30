@@ -63,6 +63,7 @@
     .popular{
         height: 50vh;
         gap: 6px;
+        margin-bottom: 80px;
     }
     .popular h1{
         font-size: 20px;
@@ -71,18 +72,18 @@
         width: 100px;
     }
     .popular-item{
-        gap: 10px;
+        gap: 5px;
     }
 }
 
-@media (max-width:800px){
+@media (max-width:500px){
     .popular{
         height: 90vh;
         gap: 6px;
     }
     .popular-item{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
         gap: 20px;
     }
 }

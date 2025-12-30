@@ -108,7 +108,7 @@
 }
 @media (max-width: 800px){
     .hero{
-        width: 100%;
+        width: 95%;
     }
     .hero-left{
         padding-left: 30px;
