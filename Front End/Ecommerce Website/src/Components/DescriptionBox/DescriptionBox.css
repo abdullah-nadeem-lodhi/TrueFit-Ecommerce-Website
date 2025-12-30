@@ -26,3 +26,22 @@
     padding: 48px;
     padding-bottom: 70px;
 }
+@media(max-width:1280){
+    .descriptionbox{
+        margin: 60px;
+    }
+
+}
+@media(max-width:800px){
+    .descriptionbox{
+        margin: 40px;
+    }
+    .descriptionbox-nav-box{
+        width: 140px;
+        height: 60px;
+        font-size: 14px;
+    }
+    .descriptionbox-description{
+       font-size: 14px;
+    }
+}
