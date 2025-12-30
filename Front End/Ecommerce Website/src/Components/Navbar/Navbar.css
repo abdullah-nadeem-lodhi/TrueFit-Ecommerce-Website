@@ -145,6 +145,7 @@
     .Navbar{
         padding: 10px 20px;
         justify-content: space-between;
+        width: 90%;
     }
     .nav-dropdown{
         display: block;
