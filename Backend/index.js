@@ -79,6 +79,23 @@ if(products.length >0){
   res.json({ success: true, name: req.body.name });
 });
 
+//API For Deletion
+app.post('/removeproduct', async (req, res) => {
+  await Product.findOneAndDelete({ id: req.body.id });
+  console.log("Removed");
+  res.json({
+    success: true,
+    name: req.body.name
+  });
+});
+
+//API for All Products fetching
+app.get('/allproducts', async (req, res) => {
+  let products = await Product.find({});
+  console.log("All Products Fetched");
+  res.send(products);
+});
+
 app.listen(port, () => {
   console.log("Server running on port " + port);
 });
